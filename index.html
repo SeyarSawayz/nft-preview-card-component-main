@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <title>Frontend Mentor | NFT preview card component</title>
+
+
+
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    body {
+      background-color: hsl(217, 54%, 11%);
+      width: 1340px;
+    }
+
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(0, 0%, 91%);
+    }
+
+
+
+
+    .inner {
+
+      background-color: hsl(216, 50%, 16%);
+      width: 300px;
+      height: 500px;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      margin: auto;
+      border-radius: 16px;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      box-shadow: 10px 10px 3px hsl(218, 58%, 6%);
+      font-family: 'Outfit', sans-serif;
+
+
+    }
+
+    .ethimg {
+      display: inline-block;
+      position: absolute;
+      bottom: 220px;
+      left: 20px;
+    }
+
+    .head1 {
+      color: white;
+      font-size: 1.3re;
+      font-weight: 700;
+      font-family: 'Outfit', sans-serif;
+      display: block;
+
+    }
+
+    .ethimg img {
+
+      border-radius: 6px;
+      width: 257px;
+      margin-top: 23px;
+
+
+    }
+
+    .p2 {
+      color: hsl(215, 51%, 70%);
+      opacity: 50%;
+
+    }
+
+    .heading {
+      position: absolute;
+      display: block;
+      bottom: 110px;
+      margin: 0px 20px;
+    }
+
+    .clockico {
+
+
+      position: absolute;
+      
+    top: 94px;
+      
+      color: #00FFF8;
+      font-size: 1rem;
+      font-family: 'Outfit', sans-serif;
+
+
+
+
+
+    }
+
+    .ethicon {
+
+      position: absolute;
+      top: 94px;
+    left: 157px;
+      color: #8BACD9;
+      font-size: 1rem;
+      font-family: 'Outfit', sans-serif;
+
+
+
+
+    }
+
+    hr{
+      position:relative;
+      bottom: -35px;
+      opacity: 5%;
+    }
+
+    .avatar{
+    width: 30px;
+    position: absolute;
+    bottom: 40px;
+    left: 19px;
+    border: 2px solid white;
+    border-radius: 50%;
+    border-color: hsl(215, 51%, 70%);
+    }
+
+    .endp{
+      position: absolute;
+      
+    bottom: 32px;
+    left: 70px;
+    }
+    .endp2{
+
+      position: absolute;
+      
+    bottom: 32px;
+    left: 70px;
+
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="inner">
+    <div class="ethimg">
+      <img src="images/image-equilibrium.jpg" alt="" width="200px">
+    </div>
+    <div class="heading">
+      <p class="head1">Equilibrium #3429</p>
+      <p class="p2">Our Equilibrium collection promotes balance and calm.</p>
+      <div class="clockico">
+        <p><svg width="11" height="18" xmlns="http://www.w3.org/2000/svg">
+            <path d="M11 10.216 5.5 18 0 10.216l5.5 3.263 5.5-3.262ZM5.5 0l5.496 9.169L5.5 12.43 0 9.17 5.5 0Z"
+              fill="#00FFF8" />
+          </svg>
+          &nbsp;0.041 ETH</p>
+      </div>
+      <div class="ethicon">
+        <p><svg width="17" height="17" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M8.305 2.007a6.667 6.667 0 1 0 0 13.334 6.667 6.667 0 0 0 0-13.334Zm2.667 7.334H8.305a.667.667 0 0 1-.667-.667V6.007a.667.667 0 0 1 1.334 0v2h2a.667.667 0 0 1 0 1.334Z"
+              fill="#8BACD9" />
+          </svg>&nbsp;
+          3 days left</p>
+      </div>
+      <hr>
+    </div>
+    <div class="end">
+      <img src="images/image-avatar.png" alt="" class="avatar">
+      <div class="endp"><p><span class="p2">Creation of &nbsp;</span><span style="color: white; opacity: 70%;">Seyar Sawayz</span>  </p></div>
+      
+    </div>
+    
+  </div>
+  
+
+ 
+</body>
+
+</html>
